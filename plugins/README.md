@@ -28,6 +28,22 @@ Learn more in the [official plugins documentation](https://docs.claude.com/en/do
 
 ## Installation
 
+### Install via Codex CLI
+
+Install this plugin collection directly from the Codex marketplace:
+
+```bash
+codex plugin install affaan-m/everything-claude-code
+```
+
+Or reference the repository locally during development (run from the repository root so `./` points to the repo root and `.mcp.json` resolves correctly):
+
+```bash
+codex plugin install ./
+```
+
+### Manual Installation
+
 These plugins are included in the Claude Code repository. To use them in your own projects:
 
 1. Install Claude Code globally:
