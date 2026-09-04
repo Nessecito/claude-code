@@ -46,10 +46,22 @@ codex plugin install ./
 
 These plugins are included in the Claude Code repository. To use them in your own projects:
 
-1. Install Claude Code globally:
-```bash
-npm install -g @anthropic-ai/claude-code
-```
+1. Install Claude Code (installation via npm is deprecated; see the [setup documentation](https://code.claude.com/docs/en/setup) for more options):
+
+    **macOS/Linux (recommended):**
+    ```bash
+    curl -fsSL https://claude.ai/install.sh | bash
+    ```
+
+    **Homebrew (macOS/Linux):**
+    ```bash
+    brew install --cask claude-code
+    ```
+
+    **Windows (recommended):**
+    ```powershell
+    irm https://claude.ai/install.ps1 | iex
+    ```
 
 2. Navigate to your project and run Claude Code:
 ```bash
