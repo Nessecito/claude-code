@@ -63,6 +63,11 @@ These plugins are included in the Claude Code repository. To use them in your ow
     irm https://claude.ai/install.ps1 | iex
     ```
 
+    **NPM (deprecated):**
+    ```bash
+    npm install -g @anthropic-ai/claude-code
+    ```
+
 2. Navigate to your project and run Claude Code:
 ```bash
 claude
