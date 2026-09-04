@@ -69,9 +69,10 @@ These plugins are included in the Claude Code repository. To use them in your ow
     ```
 
 2. Navigate to your project and run Claude Code:
-```bash
-claude
-```
+
+    ```bash
+    claude
+    ```
 
 3. Use the `/plugin` command to install plugins from marketplaces, or configure them in your project's `.claude/settings.json`.
 
